@@ -53,7 +53,7 @@ include::complete/src/main/resources/application.properties[]
 ----
 
 
-As shown here, the properties have fake values. The values given to these properties correspond to your application's consumer key and secret you obtain when you {gs-register-twitter-app}[register the application with Twitter]. For the code to work, substitute the real values given to you by Twitter in place of the fake values. The `appId` is Twitter's "Consumer Key", and the `appSecret` is teh "Consumer Secret". Be sure to register a callback URL with Twitter (it has to be a valid URL, but it doesn't need to be the URL of your app).
+As shown here, the properties have fake values. The values given to these properties correspond to your application's consumer key and secret you obtain when you {gs-register-twitter-app}[register the application with Twitter]. For the code to work, substitute the real values given to you by Twitter in place of the fake values. The `appId` is Twitter's "Consumer Key", and the `appSecret` is the "Consumer Secret". Be sure to register a callback URL with Twitter (it has to be a valid URL, but it doesn't need to be the URL of your app).
 
 The presence of these properties and Spring Social Twitter in the classpath will trigger automatic configuration of Spring Social's `ConnectController`, `TwitterConnectionFactory`, and other components of Spring Social's connection framework.
 
