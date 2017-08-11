@@ -20,7 +20,7 @@ projects: [spring-social-twitter]
 :icons: font
 :source-highlighter: prettify
 :project_id: gs-accessing-twitter
-This guide walks you through the process of creating a simple web application that fetches data from Twitter. 
+This guide walks you through the process of creating a simple web application that fetches data from Twitter.
 
 == What you'll build
 
@@ -130,7 +130,7 @@ include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/
 Once the application starts up, you can point your web browser to http://localhost:8080. Because no connection is established yet, you see this screen prompting you to connect with Twitter:
 
 image::images/connect.png[No connection to Twitter exists yet.]
- 
+
 When you click **Connect to Twitter**, the browser is redircted to Twitter for authorization:
 
 image::images/twauth.png[Twitter needs your permission to allow the application to access your data.]
@@ -148,5 +148,11 @@ image::images/friends.png[Guess noone told you life was gonna be this way.]
 == Summary
 Congratulations! You've developed a simple web application that uses Spring Social to obtain user authorization to fetch data from the user's Twitter profile and from the profiles of people whom the user follows.
 
-include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/footer.adoc[]
+== See Also
 
+The following guides may also be helpful:
+
+* https://spring.io/guides/gs/register-twitter-app/[Registering an Application with Twitter]
+* https://spring.io/guides/gs/accessing-facebook/[Accessing Facebook Data]
+
+include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/footer.adoc[]
