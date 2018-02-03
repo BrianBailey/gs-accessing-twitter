@@ -60,7 +60,7 @@ public class ApplicationTest {
 
     @Test
     public void connectHandlerRedirects() throws Exception {
-        if (appId.startsWith("{{")) {
+        if (appId.startsWith("realConsumer")) {
             // User hasn't configured app
             MvcResult result = mockMvc.perform(post("/connect/twitter"))
                     .andExpect(redirectedUrl("/connect/twitter")).andReturn();
